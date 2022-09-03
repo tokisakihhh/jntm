@@ -6,10 +6,10 @@ curl -L -H "Cache-Control: no-cache" -o /tmp/xray/xray.zip https://github.com/XT
 unzip /tmp/xray/xray.zip -d /tmp/xray
 install -m 755 /tmp/xray/xray /usr/local/bin/xray
 
+curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
+
 # Remove temporary directory
 rm -rf /tmp/xray
-
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
 # xray new configuration
 install -d /usr/local/etc/xray
