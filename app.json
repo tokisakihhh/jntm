@@ -1,5 +1,5 @@
 {
-  "name": "heroku-vless",
+  "name": "jntm",
   "description": "Deploy vless on Heroku.",
   "keywords": [
     "vless"
@@ -11,6 +11,6 @@
     }
   },
   "website": "https://github.com/rptec/",
-  "repository": "https://github.com/rptec/heroku-vless",
+  "repository": "https://github.com/rptec/jntm",
   "stack": "container"
 }
