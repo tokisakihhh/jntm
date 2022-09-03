@@ -9,6 +9,8 @@ install -m 755 /tmp/xray/xray /usr/local/bin/xray
 # Remove temporary directory
 rm -rf /tmp/xray
 
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+
 # xray new configuration
 install -d /usr/local/etc/xray
 cat << EOF > /usr/local/etc/xray/config.json
